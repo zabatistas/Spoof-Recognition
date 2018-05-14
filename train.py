@@ -22,18 +22,7 @@ network.define_train_operations()
 sess = tf.Session()
 try:
     network.train(sess)
-except KeyboardInterrupt:  
+except KeyboardInterrupt:
     print()
 finally:
-    sess.close() 
-
-
-
-
-
-
-
-
-
-
-
+    sess.close()

@@ -10,7 +10,7 @@ from lib.model_io import save_variables
 from lib.precision import _FLOATX
 
 
-class CNN(object):
+class CNN(train_params, train_params_value, valid_params,valid_params_value):
 
     batch_size = 256
     height = 64
